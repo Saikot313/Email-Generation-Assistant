@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Email Generation Assistant
 
 AI Engineer Candidate Assessment — all 3 parts in one repository.
@@ -67,4 +66,3 @@ See `metrics.py` for full logic and rationale.
 =======
 # Email_Generation-Assistant
 AI-powered Email Generation Assistant built with Python, Streamlit, and Gemini API. Generates professional emails from user intent, key facts, and tone using advanced prompt engineering (Role-Playing + Chain-of-Thought), with custom evaluation metrics and model comparison.
->>>>>>> 9ac6a3a8feb35c15f8f4b11ef00bea5d77f706ce
