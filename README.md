@@ -1,6 +1,6 @@
 # Email Generation Assistant
 
-AI Engineer Candidate Assessment — all 3 parts in one repository.
+AI Engineer Candidate Assessment - all 3 parts in one repository.
 
 ## Folder Structure
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 export GEMINI_API_KEY=your_key_here
 ```
 
-## Part 1 — Run the Streamlit App
+## Part 1 - Run the Streamlit App
 
 ```bash
 streamlit run app.py
@@ -34,7 +34,7 @@ streamlit run app.py
 
 Enter Intent, Key Facts, Tone → click Generate Email.
 
-## Part 2 — Evaluation (10 Scenarios + 3 Custom Metrics)
+## Part 2 - Evaluation (10 Scenarios + 3 Custom Metrics)
 
 ```bash
 python evaluate.py
@@ -42,7 +42,7 @@ python evaluate.py
 
 Outputs `results.csv` with Fact Recall, Tone Accuracy, Conciseness scores for all 10 scenarios.
 
-## Part 3 — Model Comparison
+## Part 3 - Model Comparison
 
 ```bash
 python comparison.py
@@ -52,7 +52,7 @@ Outputs `comparison.csv` comparing Model A (basic prompt) vs Model B (Role-Play 
 
 ## Prompting Technique (Part 2)
 
-**Role-Playing + Chain-of-Thought (CoT)** — see `prompts.py → advanced_prompt()`.
+**Role-Playing + Chain-of-Thought (CoT)** - see `prompts.py → advanced_prompt()`.
 
 ## Custom Metrics (Part 3)
 
