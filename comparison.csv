@@ -1,0 +1,382 @@
+scenario_id,intent,tone,strategy,fact_recall,tone_accuracy,conciseness,average,generated_email
+1,Follow up after meeting,Formal,Model A (Basic Prompt),100.0,95.0,79.0,91.33,"Subject: Following Up: [Your Company Name] / [Their Company Name] Meeting - [Date of Meeting]
+
+Dear [Recipient Name],
+
+I hope this email finds you well.
+
+I am writing to follow up on our meeting held on Monday, [Date of Meeting], regarding [briefly mention the project or topic of discussion]. It was a pleasure speaking with you and learning more about [mention something specific you learned or discussed that was valuable].
+
+As discussed, we are keen to receive your proposal for this project. We would appreciate it if you could provide this by **June 25th**. We are working with a budget of approximately **$10,000** for this initiative.
+
+Please do not hesitate to reach out if you require any further information or clarification from our end to assist in the preparation of your proposal.
+
+Thank you for your time and consideration. We look forward to receiving your proposal and continuing our discussion.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Phone Number]
+[Your Email Address]"
+1,Follow up after meeting,Formal,Model B (Role-Play + CoT),100.0,95.0,31.0,75.33,"Subject: Following Up: [Your Company Name] / [Recipient's Company Name] Meeting - [Date of Meeting]
+
+Dear [Recipient Name],
+
+It was a pleasure meeting with you on Monday to discuss [briefly mention the topic of the meeting, e.g., potential collaboration, project overview]. I truly appreciate you taking the time to share your insights and outline your requirements.
+
+Further to our conversation, we understand that you are looking for a proposal to be submitted by June 25th. We also note that the estimated budget for this initiative is approximately $10,000.
+
+We are actively working on developing a comprehensive proposal that aligns with your objectives and falls within the outlined budget. We will ensure that it clearly details our approach and the value we can bring to [mention the project or goal].
+
+We anticipate being able to share this with you well in advance of your deadline. In the meantime, please do not hesitate to reach out if any further details or clarifications are needed from our end.
+
+Thank you again for your time and consideration. We look forward to the possibility of working together.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Phone Number]
+[Your Email Address]"
+2,Request for proposal details,Formal,Model A (Basic Prompt),100.0,95.0,82.0,92.33,"Subject: Request for Proposal Details - [Project Name/Service]
+
+Dear [Vendor Contact Name],
+
+Thank you for your interest in providing [briefly mention the product/service] for [Your Company Name]. We are currently in the process of evaluating proposals from three potential vendors and are seeking further clarification to ensure a comprehensive understanding of your offering.
+
+To facilitate our evaluation, we kindly request that you provide a detailed final pricing breakdown by **July 10th**. This breakdown should clearly outline all associated costs, including any potential additional fees or charges.
+
+Furthermore, please ensure that your proposal includes a comprehensive **warranty and support plan**. This section should detail the scope of coverage, duration of the warranty, and the available support channels and response times.
+
+We appreciate your prompt attention to this matter and look forward to receiving your detailed information.
+
+Should you have any questions, please do not hesitate to contact me directly.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Phone Number]
+[Your Email Address]"
+2,Request for proposal details,Formal,Model B (Role-Play + CoT),100.0,95.0,100.0,98.33,"Subject: Request for Proposal Details - [Your Company Name]
+
+Dear [Vendor Contact Name],
+
+Thank you for submitting your proposal for [Project Name/Service]. We are currently in the final stages of our evaluation process and would appreciate your assistance in providing a few additional details.
+
+To ensure a comprehensive comparison, we require a final pricing breakdown. Please submit this by **July 10th**.
+
+Furthermore, please ensure your proposal clearly outlines your **warranty and support plan** for the proposed solution. This is a crucial aspect of our decision-making process.
+
+As a reminder, we are evaluating three vendors in total for this project. Your prompt attention to these requests will greatly aid us in our final assessment.
+
+We look forward to receiving the requested information.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Contact Information]"
+3,Apology for delayed delivery,Empathetic,Model A (Basic Prompt),66.67,90.0,0,52.22,"Subject: An Update and Apology Regarding Your Recent Order [Order Number]
+
+Dear [Customer Name],
+
+Please accept our sincerest apologies for the delay in the delivery of your recent order, [Order Number]. We understand how frustrating it can be to not receive your anticipated items on time, and we are truly sorry for any inconvenience this has caused.
+
+Upon investigating the status of your shipment, we discovered that the delay was due to an unexpected issue with our shipping carrier. While we work closely with our trusted partners to ensure timely deliveries, unforeseen circumstances can sometimes impact their operations.
+
+We have been in close communication with the carrier and have received confirmation that your order is now back on track. We are pleased to inform you that the new estimated arrival date for your order is this **Friday, [Date of Friday]**.
+
+We are committed to providing you with the best possible service, and we deeply regret that we fell short of your expectations on this occasion. We value your business and appreciate your patience and understanding as we resolve this matter.
+
+You can continue to track your order here: [Tracking Link]
+
+If you have any questions or concerns, please do not hesitate to reply to this email or contact our customer support team directly at [Phone Number] during our business hours.
+
+Thank you again for your understanding.
+
+Sincerely,
+
+The [Your Company Name] Team"
+3,Apology for delayed delivery,Empathetic,Model B (Role-Play + CoT),100.0,90.0,0,63.33,"Subject: An Update Regarding Your Recent Order - We're So Sorry for the Delay
+
+Dear [Customer Name],
+
+We are writing to sincerely apologize for the unexpected delay in the delivery of your recent order, [Order Number]. We understand how frustrating it can be to not receive your items as anticipated, and we are truly sorry for any inconvenience this has caused.
+
+Your order was unfortunately impacted by an unforeseen issue with our shipping carrier, which has unfortunately resulted in a delay of approximately three days. We were also disappointed to learn of this setback, as we strive to ensure every order reaches you promptly and efficiently.
+
+The good news is that we have been in close communication with the carrier, and they have provided us with an updated estimated arrival date. We now expect your order to be delivered by **Friday, [Date of Friday]**.
+
+We genuinely appreciate your patience and understanding as we work through this shipping carrier issue. Your satisfaction is our top priority, and we are committed to getting your order to you as quickly as possible.
+
+If you have any immediate questions or concerns, please do not hesitate to contact us directly by replying to this email or calling us at [Phone Number].
+
+Thank you again for your understanding.
+
+Sincerely,
+
+The [Your Company Name] Team"
+4,Notify team of server outage,Urgent,Model A (Basic Prompt),100.0,90.0,100.0,96.67,"Subject: URGENT: Critical Server Outage - Database Migration Failure
+
+Team,
+
+This is an urgent notification regarding a critical server outage that began at approximately **2:00 AM this morning**.
+
+We have identified the root cause of this outage as a **failed database migration**.
+
+Our engineering team is actively working to resolve this issue. The current estimated time for full service restoration is **4 hours** from the time of this email.
+
+We understand the significant impact this outage is having and sincerely apologize for any disruption. We are prioritizing this to restore services as quickly as possible.
+
+We will provide further updates as they become available.
+
+Thank you for your understanding and patience.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Department/Company]"
+4,Notify team of server outage,Urgent,Model B (Role-Play + CoT),100.0,95.0,100.0,98.33,"Subject: URGENT: Critical Server Outage - Impacting All Systems
+
+Team,
+
+This is an urgent notification regarding a critical server outage that began at **2:00 AM this morning**.
+
+Our technical teams have identified the root cause as a **failed database migration**. This failure is unfortunately impacting all of our systems.
+
+We understand the severity of this situation and are working with the utmost urgency to resolve it. Our current **estimated time for full restoration of services is approximately 4 hours** from now.
+
+We recognize the significant disruption this outage is causing and sincerely apologize for the inconvenience. We are deploying all available resources to expedite the fix and will provide further updates as soon as they become available.
+
+Thank you for your patience and understanding.
+
+Sincerely,
+
+[Your Name/IT Department]
+Corporate Communications"
+5,Thank you note after a job interview,Formal,Model A (Basic Prompt),100.0,95.0,100.0,98.33,"Subject: Thank You - AI Engineer Interview - [Your Name]
+
+Dear [Interviewer Name],
+
+Thank you very much for taking the time to speak with me on Tuesday about the AI Engineer position at [Company Name]. I truly enjoyed our conversation and learning more about the role and the innovative work your team is doing.
+
+I particularly found our discussion about the ML pipeline project to be engaging. I am enthusiastic about the challenges and opportunities it presents, and I believe my skills and experience align well with the requirements of this role.
+
+I am very interested in the AI Engineer position and am eager to contribute to your team's success. I look forward to hearing from you regarding the next steps in the hiring process.
+
+Thank you again for your time and consideration.
+
+Sincerely,
+
+[Your Name]
+[Your Phone Number]
+[Your Email Address]
+[Link to your LinkedIn profile (Optional)]"
+5,Thank you note after a job interview,Formal,Model B (Role-Play + CoT),100.0,95.0,100.0,98.33,"Subject: Following Up - AI Engineer Interview - [Your Name]
+
+Dear [Interviewer's Name],
+
+Thank you for taking the time to speak with me on Tuesday regarding the AI Engineer position. I truly enjoyed our conversation and learning more about the role and [Company Name]'s innovative work in AI.
+
+I particularly appreciated the opportunity to discuss the ML pipeline project in detail. It was fascinating to hear about your approach and how it aligns with my own experience in [mention a relevant skill or experience related to the project].
+
+I remain very enthusiastic about this opportunity and am eager to contribute my skills to your team. I look forward to hearing from you regarding the next steps in the hiring process.
+
+Thank you again for your time and consideration.
+
+Sincerely,
+
+[Your Name]
+[Your Phone Number]
+[Your Email Address]
+[Link to your LinkedIn profile (Optional)]"
+6,Payment reminder to client,Formal,Model A (Basic Prompt),100.0,95.0,100.0,98.33,"Subject: Payment Reminder - Invoice #4521 Due June 15
+
+Dear [Client Name],
+
+This email is a friendly reminder that Invoice #4521, for the amount of $2,400, is due on June 15.
+
+We kindly request that payment be made by the due date to ensure your account remains in good standing.
+
+Please note that a 2% late fee will be applied to any outstanding balance after 30 days past the due date.
+
+You can find a copy of the invoice attached to this email for your convenience. If you have already submitted payment, please disregard this notice and accept our apologies.
+
+Should you have any questions or require assistance with the payment process, please do not hesitate to contact us at [Your Phone Number] or reply to this email.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Company Contact Information]"
+6,Payment reminder to client,Formal,Model B (Role-Play + CoT),100.0,95.0,100.0,98.33,"Subject: Payment Reminder: Invoice #4521 - Due June 15
+
+Dear [Client Name],
+
+This email serves as a friendly reminder regarding invoice #4521, which is due on **June 15th**.
+
+The outstanding amount for this invoice is **$2,400**.
+
+We kindly request that you process this payment at your earliest convenience to ensure timely settlement. Please note that as per our terms, a late fee of 2% will be applied to the outstanding balance if payment is not received within 30 days of the due date.
+
+Should you have already made this payment, please disregard this reminder. If you have any questions or require a copy of the invoice, please do not hesitate to contact us.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Contact Information]"
+7,Product launch announcement,Casual,Model A (Basic Prompt),100.0,85.0,89.5,91.5,"Subject: Get Ready! Our New App is Launching July 1st! ✨
+
+Hey everyone,
+
+We're bursting with excitement to announce that our brand new mobile app is officially launching on **July 1st**! We've been working hard behind the scenes, and we can't wait for you to get your hands on it.
+
+This app is packed with awesome features, including a much-requested **offline mode** so you can stay connected (or productive!) even without Wi-Fi, and a slick new **dark theme** for a more comfortable viewing experience. We think you're going to love it!
+
+To celebrate the launch, we're offering a special treat for our early adopters. The first users to download and sign up will receive **3 months of premium access absolutely free!** It's our way of saying thank you for being part of our journey.
+
+Mark your calendars for July 1st – you won't want to miss this.
+
+More details coming soon!
+
+Best,
+
+The [Your Company Name] Team"
+7,Product launch announcement,Casual,Model B (Role-Play + CoT),100.0,85.0,82.0,89.0,"Subject: Get Ready! Our New App Drops July 1!
+
+Hey everyone,
+
+Exciting news is on the horizon! We're thrilled to announce the official launch of our brand new mobile app, coming your way on **July 1st**!
+
+We've been hard at work creating an app that's not only functional but also a pleasure to use. That's why we've packed it with some awesome features you're going to love, including a super convenient **offline mode** so you can stay connected even without internet, and a sleek **dark theme** for those late-night browsing sessions.
+
+And because we appreciate your support, we've got a special treat for our early birds! The first wave of users will receive **three months of premium access absolutely free**. It's our way of saying thanks for being part of this journey with us right from the start.
+
+Get ready to experience the difference! We can't wait for you to get your hands on it.
+
+Best,
+
+[Your Name]
+[Your Title]
+[Your Company]"
+8,Reschedule a meeting,Casual,Model A (Basic Prompt),66.67,85.0,100.0,83.89,"Subject: Quick Reschedule - [Your Name/Company Name] Meeting
+
+Hi [Recipient Name],
+
+Hope you're having a good week!
+
+Something has come up on my end that's going to prevent me from making our meeting scheduled for **Thursday at 3 PM**. I'm so sorry for any inconvenience this might cause.
+
+Would you be open to rescheduling for **Friday at 10 AM** instead? I think that time would work perfectly.
+
+Please let me know if that new time works for you. If not, I'm happy to find another slot that suits your schedule.
+
+Thanks so much for your understanding!
+
+Best,
+
+[Your Name]
+[Your Title/Company Name]"
+8,Reschedule a meeting,Casual,Model B (Role-Play + CoT),66.67,85.0,100.0,83.89,"Subject: Quick Meeting Reschedule - [Your Company Name] / [Client Company Name]
+
+Hey [Client Name],
+
+Hope you're having a productive week!
+
+Just a quick note to see if we could possibly reschedule our meeting that was originally set for Thursday at 3 PM. Something has unexpectedly popped up with another client that I need to attend to at that time.
+
+Would you be free to move our chat to **Friday at 10 AM** instead? I think that should work perfectly on my end.
+
+Please let me know if that time works for you, or if you have another time on Friday that might be better.
+
+Thanks so much for your flexibility!
+
+Best,
+
+[Your Name]
+[Your Title]
+[Your Company Name]"
+9,Respond to a customer complaint,Empathetic,Model A (Basic Prompt),100.0,85.0,85.0,90.0,"Subject: Regarding Your Recent Billing Inquiry - [Order Number/Invoice Number, if applicable]
+
+Dear [Customer Name],
+
+Thank you for reaching out to us and bringing this billing discrepancy to our attention. We sincerely apologize for any inconvenience or frustration this may have caused.
+
+We understand that you reported a concern regarding a billing error, and we appreciate you taking the time to notify us. Our team has thoroughly investigated your account and identified that the issue was indeed a duplicate charge.
+
+We are pleased to inform you that the duplicate charge has been rectified, and a refund has already been processed for the overcharged amount. You should see this reflected in your account within [number] business days, depending on your bank's processing times.
+
+We value your business and are committed to ensuring your experience with us is positive. Please do not hesitate to contact us if you have any further questions or require additional assistance.
+
+Sincerely,
+
+The [Your Company Name] Team"
+9,Respond to a customer complaint,Empathetic,Model B (Role-Play + CoT),100.0,85.0,100.0,95.0,"Subject: Addressing Your Recent Billing Concern - We've Processed Your Refund
+
+Dear [Customer Name],
+
+Thank you for reaching out to us regarding the billing error you recently encountered. We sincerely apologize for any concern or inconvenience this may have caused.
+
+We understand how important it is to have accurate billing, and we appreciate you bringing this to our attention. Upon investigating your account, we discovered that the issue was indeed a duplicate charge.
+
+We're pleased to inform you that we have already processed a refund for the duplicate charge. You should see this reflected in your account within [number] business days, depending on your financial institution's processing times.
+
+We value your business and are committed to providing you with a seamless experience. Please don't hesitate to contact us if you have any further questions or require additional assistance.
+
+Sincerely,
+
+The [Your Company Name] Team"
+10,Renew a partnership agreement,Formal,Model A (Basic Prompt),100.0,95.0,0,65.0,"Subject: Partnership Renewal Proposal - [Your Company Name] and [Partner Company Name]
+
+Dear [Partner Contact Person Name],
+
+This email serves to formally express our strong desire to renew the partnership agreement between [Your Company Name] and [Partner Company Name]. We have greatly valued our collaboration over the past [Number] years and believe that continuing our partnership will bring mutual benefit and continued success.
+
+As our current contract is set to expire on August 31, [Year], we would like to propose a renewal for an additional two-year term, commencing September 1, [Year]. We are confident that this extended period will allow us to further build upon our achievements and explore new avenues for growth together.
+
+To demonstrate our commitment and appreciation for our ongoing relationship, we are pleased to offer a **5% discount** on the upcoming renewal term for agreements finalized before [Date - suggest a reasonable deadline, e.g., July 31, 2024]. We believe this incentive reflects the value we place on your continued partnership and encourages timely decision-making.
+
+We are eager to discuss the specifics of the renewal and answer any questions you may have. Please let us know your availability for a brief call or meeting at your earliest convenience. We are flexible and can accommodate your schedule.
+
+Thank you for your time and consideration. We look forward to continuing our successful partnership.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Phone Number]
+[Your Email Address]"
+10,Renew a partnership agreement,Formal,Model B (Role-Play + CoT),66.67,95.0,80.5,80.72,"Subject: Proposal for Partnership Agreement Renewal
+
+Dear [Contact Person Name],
+
+I hope this email finds you well.
+
+As our current partnership agreement is set to conclude on August 31st, we are writing to formally express our strong interest in renewing our collaboration for an additional two-year term. We have greatly valued our partnership with [Company Name] and believe that continuing our relationship will be mutually beneficial.
+
+To demonstrate our commitment to this partnership and in recognition of your continued support, we are pleased to offer a 5% discount on the renewed agreement should we finalize the terms prior to [Specific Date, e.g., July 31st].
+
+We are confident that this renewal will allow us to build upon our shared successes and explore new avenues for growth together. We are eager to discuss the specifics of the renewed agreement at your earliest convenience.
+
+Thank you for your time and consideration. We look forward to your positive response.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]"

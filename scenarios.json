@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after meeting",
+    "key_facts": [
+      "Meeting held on Monday",
+      "Need proposal before June 25",
+      "Budget around $10,000"
+    ],
+    "tone": "Formal",
+    "human_reference_email": "Subject: Follow-Up: Monday's Meeting and Next Steps\n\nDear Mr. Hossain,\n\nThank you for meeting with us on Monday to discuss the project scope. As agreed, we would appreciate receiving your proposal before June 25 so we have adequate time to review it ahead of the next planning cycle.\n\nFor reference, our working budget for this engagement is approximately $10,000, which should help guide the scope and options you include.\n\nPlease let us know if you have any questions in the meantime.\n\nBest regards,\nSaikot Ahmed"
+  },
+  {
+    "id": 2,
+    "intent": "Request for proposal details",
+    "key_facts": [
+      "Final pricing breakdown needed by July 10",
+      "Proposal must include a warranty/support plan",
+      "We are evaluating three vendors in total"
+    ],
+    "tone": "Formal",
+    "human_reference_email": "Subject: Request for Proposal Details\n\nDear Ms. Rahman,\n\nWe would like to request the remaining details for your proposal. Specifically, please share the final pricing breakdown by July 10, along with the warranty and support plan that would accompany the engagement.\n\nPlease note we are currently evaluating three vendors for this project, so a clear and complete proposal will help us compare options fairly.\n\nThank you for your continued responsiveness.\n\nSincerely,\nSaikot Ahmed"
+  },
+  {
+    "id": 3,
+    "intent": "Apology for delayed delivery",
+    "key_facts": [
+      "Order is delayed by 3 days",
+      "Cause was a shipping carrier issue",
+      "New expected arrival is Friday"
+    ],
+    "tone": "Empathetic",
+    "human_reference_email": "Subject: An Update on Your Order \u2014 We're Sorry for the Delay\n\nHi Tania,\n\nI wanted to personally reach out about your recent order. It's running 3 days behind schedule because of an issue on our shipping carrier's end, and I know that's frustrating when you're counting on it arriving on time.\n\nThe good news is it's back on track, with a new expected arrival by Friday. We'll keep an eye on it and let you know if anything changes.\n\nThank you for your patience \u2014 please reach out if there's anything we can do in the meantime.\n\nWarm regards,\nSaikot Ahmed"
+  },
+  {
+    "id": 4,
+    "intent": "Notify team of server outage",
+    "key_facts": [
+      "Outage started at 2 AM",
+      "Root cause was a failed database migration",
+      "Estimated fix time is 4 hours"
+    ],
+    "tone": "Urgent",
+    "human_reference_email": "Subject: URGENT: Server Outage Since 2 AM\n\nTeam,\n\nWe are currently experiencing a server outage that began at 2 AM. The root cause has been identified as a failed database migration.\n\nThe engineering team is actively working on it, with an estimated fix time of 4 hours. I will send updates as soon as we know more.\n\nPlease hold off on any deployments until this is resolved.\n\nThanks,\nSaikot Ahmed"
+  },
+  {
+    "id": 5,
+    "intent": "Thank you note after a job interview",
+    "key_facts": [
+      "Interview took place on Tuesday for the AI Engineer role",
+      "Enjoyed discussing the ML pipeline project",
+      "Looking forward to hearing about next steps"
+    ],
+    "tone": "Formal",
+    "human_reference_email": "Subject: Thank You \u2014 AI Engineer Interview\n\nDear Ms. Chowdhury,\n\nThank you for taking the time to speak with me on Tuesday about the AI Engineer role. I particularly enjoyed our discussion about the ML pipeline project and the challenges your team is solving there.\n\nThe conversation only reinforced my interest in the position, and I would welcome the opportunity to contribute. I look forward to hearing about next steps whenever convenient.\n\nThank you again for your time and consideration.\n\nBest regards,\nSaikot Ahmed"
+  },
+  {
+    "id": 6,
+    "intent": "Payment reminder to client",
+    "key_facts": [
+      "Invoice #4521 is due on June 15",
+      "Amount due is $2,400",
+      "A 2% late fee applies after 30 days"
+    ],
+    "tone": "Formal",
+    "human_reference_email": "Subject: Payment Reminder: Invoice #4521\n\nDear Mr. Karim,\n\nThis is a friendly reminder that Invoice #4521, for $2,400, is due on June 15.\n\nPlease note that a 2% late fee will apply if payment is not received within 30 days of the due date. If payment has already been sent, please disregard this note.\n\nLet us know if you have any questions regarding the invoice.\n\nBest regards,\nSaikot Ahmed"
+  },
+  {
+    "id": 7,
+    "intent": "Product launch announcement",
+    "key_facts": [
+      "New mobile app launches July 1",
+      "Includes offline mode and a dark theme",
+      "Early users get 3 months of premium free"
+    ],
+    "tone": "Casual",
+    "human_reference_email": "Subject: Something new is coming on July 1 \ud83d\ude80\n\nHey there,\n\nBig news \u2014 our new mobile app launches July 1! We've packed in offline mode and a dark theme, since those were the two things you all asked for the most.\n\nAnd if you're one of our early users, you'll get 3 months of premium completely free, no strings attached.\n\nCan't wait for you to try it.\n\nCheers,\nSaikot"
+  },
+  {
+    "id": 8,
+    "intent": "Reschedule a meeting",
+    "key_facts": [
+      "Original meeting was Thursday at 3 PM",
+      "Needs to move to Friday at 10 AM",
+      "Reason is a scheduling conflict with another client"
+    ],
+    "tone": "Casual",
+    "human_reference_email": "Subject: Quick reschedule \u2014 Thursday to Friday\n\nHi Arif,\n\nSomething just came up \u2014 a scheduling conflict with another client means I won't be able to make our Thursday 3 PM meeting.\n\nCould we move it to Friday at 10 AM instead? Let me know if that works on your end, and sorry for the shuffle.\n\nThanks,\nSaikot"
+  },
+  {
+    "id": 9,
+    "intent": "Respond to a customer complaint",
+    "key_facts": [
+      "Customer reported a billing error",
+      "We found the issue was a duplicate charge",
+      "A refund has already been processed"
+    ],
+    "tone": "Empathetic",
+    "human_reference_email": "Subject: Update on Your Billing Concern\n\nHi Ms. Sultana,\n\nThank you for flagging the billing error \u2014 I completely understand how unsettling it is to see an unexpected charge on your account.\n\nWe looked into it right away and found that you were charged twice for the same order. I'm glad to let you know a refund has already been processed for the duplicate amount.\n\nPlease let me know if you don't see it reflected within a few business days, and again, I'm sorry for the inconvenience.\n\nWarm regards,\nSaikot Ahmed"
+  },
+  {
+    "id": 10,
+    "intent": "Renew a partnership agreement",
+    "key_facts": [
+      "Current contract ends August 31",
+      "We would like to renew for another 2 years",
+      "We are proposing a 5% discount for early renewal"
+    ],
+    "tone": "Formal",
+    "human_reference_email": "Subject: Renewing Our Partnership Agreement\n\nDear Mr. Islam,\n\nAs our current contract is set to end on August 31, I wanted to reach out about renewing our partnership for another 2 years.\n\nTo make early renewal worthwhile, we would like to offer a 5% discount if we can finalize the new terms before the current agreement expires.\n\nWe've valued working with your team and would be glad to discuss this further at your convenience.\n\nSincerely,\nSaikot Ahmed"
+  }
+]
